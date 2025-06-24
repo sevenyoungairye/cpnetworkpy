@@ -1,7 +1,7 @@
 from socket import * 
 
 severPort = 12000
-serverHost = '127.0.0.1'
+serverHost = '0.0.0.0'
 serverSocket = socket(AF_INET, SOCK_DGRAM)
 serverSocket.bind((serverHost, severPort))
 
